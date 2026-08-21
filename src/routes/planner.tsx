@@ -14,12 +14,12 @@ import { useAI } from "@/hooks/use-ai";
 export const Route = createFileRoute("/planner")({
   head: () => ({
     meta: [
-      { title: "AI Task Planner — Aurelia" },
+      { title: "AI Task Planner — Kutlwano" },
       {
         name: "description",
         content: "Turn a messy task list into a prioritised plan with time blocks and focus levels.",
       },
-      { property: "og:title", content: "AI Task Planner — Aurelia" },
+      { property: "og:title", content: "AI Task Planner — Kutlwano" },
       {
         property: "og:description",
         content: "Prioritise tasks by urgency and impact, then get a realistic schedule.",

@@ -15,12 +15,12 @@ import { useAI } from "@/hooks/use-ai";
 export const Route = createFileRoute("/research")({
   head: () => ({
     meta: [
-      { title: "AI Research Assistant — Aurelia" },
+      { title: "AI Research Assistant — Kutlwano" },
       {
         name: "description",
         content: "Get structured research briefs with insights, opportunities, risks and next steps.",
       },
-      { property: "og:title", content: "AI Research Assistant — Aurelia" },
+      { property: "og:title", content: "AI Research Assistant — Kutlwano" },
       {
         property: "og:description",
         content: "Structured research briefs with insights, risks and recommended next steps.",
