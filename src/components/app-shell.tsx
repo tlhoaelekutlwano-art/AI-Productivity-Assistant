@@ -62,7 +62,7 @@ function Brand() {
         <Sparkles className="size-5 text-primary" />
       </span>
       <span className="leading-tight">
-        <span className="block font-display text-base font-semibold">Aurelia</span>
+        <span className="block font-display text-base font-semibold">Kutlwano</span>
         <span className="block text-xs text-muted-foreground">Creative work assistant</span>
       </span>
     </div>

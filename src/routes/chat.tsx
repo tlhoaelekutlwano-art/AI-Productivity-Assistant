@@ -13,12 +13,12 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/chat")({
   head: () => ({
     meta: [
-      { title: "Assistant Chat — Aurelia" },
+      { title: "Assistant Chat — Kutlwano" },
       {
         name: "description",
         content: "Chat with an AI work assistant for quick answers, rewrites and next steps.",
       },
-      { property: "og:title", content: "Assistant Chat — Aurelia" },
+      { property: "og:title", content: "Assistant Chat — Kutlwano" },
       {
         property: "og:description",
         content: "Chat with an AI work assistant for quick answers, rewrites and next steps.",
@@ -41,7 +41,7 @@ function ChatPage() {
     {
       role: "assistant",
       content:
-        "Hi! I'm Aurelia. Ask me to rewrite something, unblock a task, or think through a creative problem.",
+        "Hi! I'm Kutlwano. Ask me to rewrite something, unblock a task, or think through a creative problem.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -131,7 +131,7 @@ function ChatPage() {
         >
           <Input
             className="rounded-2xl"
-            placeholder="Ask Aurelia anything…"
+            placeholder="Ask Kutlwano anything…"
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
