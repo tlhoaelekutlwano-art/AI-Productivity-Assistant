@@ -19,7 +19,7 @@ function systemPrompt(feature: string, o: Record<string, string> = {}) {
     case "email":
       return `${base}
 TASK: Write a complete, ready-to-send email.
-TONE: ${o.tone ?? "professional"}. AUDIENCE: ${o.audience ?? "colleague"}. LENGTH: ${o.length ?? "medium"}.
+TONE: ${o['tone'] ?? "professional"}. AUDIENCE: ${o['audience'] ?? "colleague"}. LENGTH: ${o['length'] ?? "medium"}.
 STRUCTURE:
 1. **Subject:** one compelling line.
 2. Greeting appropriate to the audience.
@@ -39,7 +39,7 @@ RULES: only use information present in the notes.`;
     case "planner":
       return `${base}
 TASK: Turn a messy task dump into a prioritised plan.
-WORKING STYLE: ${o.horizon ?? "today"}. CAPACITY: ${o.capacity ?? "standard workday"}.
+WORKING STYLE: ${o['horizon'] ?? "today"}. CAPACITY: ${o['capacity'] ?? "standard workday"}.
 OUTPUT SECTIONS:
 ## Priority Order — numbered list, each item: task — **P1/P2/P3** — estimated effort — one-line rationale.
 ## Suggested Schedule — markdown table Time Block | Task | Focus Level.
@@ -49,7 +49,7 @@ RULES: apply urgency vs impact reasoning, protect one deep-work block.`;
     case "research":
       return `${base}
 TASK: Act as a research analyst on the given topic.
-DEPTH: ${o.depth ?? "balanced brief"}.
+DEPTH: ${o['depth'] ?? "balanced brief"}.
 OUTPUT SECTIONS:
 ## Overview — 3-4 sentences.
 ## Key Insights — 4-6 bullets, each starting with a bolded insight label.
