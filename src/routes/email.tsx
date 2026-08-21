@@ -14,12 +14,12 @@ import { useAI } from "@/hooks/use-ai";
 export const Route = createFileRoute("/email")({
   head: () => ({
     meta: [
-      { title: "Smart Email Generator — Aurelia" },
+      { title: "Smart Email Generator — Kutlwano" },
       {
         name: "description",
         content: "Generate polished work emails tuned to the tone, audience and length you need.",
       },
-      { property: "og:title", content: "Smart Email Generator — Aurelia" },
+      { property: "og:title", content: "Smart Email Generator — Kutlwano" },
       {
         property: "og:description",
         content: "Generate polished work emails tuned to tone, audience and length.",

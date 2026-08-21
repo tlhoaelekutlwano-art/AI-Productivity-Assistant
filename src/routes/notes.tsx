@@ -13,12 +13,12 @@ import { useAI } from "@/hooks/use-ai";
 export const Route = createFileRoute("/notes")({
   head: () => ({
     meta: [
-      { title: "Meeting Notes Summarizer — Aurelia" },
+      { title: "Meeting Notes Summarizer — Kutlwano" },
       {
         name: "description",
         content: "Paste raw notes or a transcript and get key points, decisions, owners and deadlines.",
       },
-      { property: "og:title", content: "Meeting Notes Summarizer — Aurelia" },
+      { property: "og:title", content: "Meeting Notes Summarizer — Kutlwano" },
       {
         property: "og:description",
         content: "Turn messy meeting notes into key points, decisions and action items.",

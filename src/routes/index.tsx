@@ -9,13 +9,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dashboard — Aurelia AI Workplace Assistant" },
+      { title: "Dashboard — Kutlwano AI Workplace Assistant" },
       {
         name: "description",
         content:
           "One calm workspace for AI email drafting, meeting summaries, task planning, research briefs and chat.",
       },
-      { property: "og:title", content: "Dashboard — Aurelia AI Workplace Assistant" },
+      { property: "og:title", content: "Dashboard — Kutlwano AI Workplace Assistant" },
       {
         property: "og:description",
         content: "One calm workspace for AI email drafting, meeting summaries, task planning and research.",
